@@ -1,0 +1,10 @@
+paragrafo {
+    cursor: pointer;
+    position: relative;
+}
+
+paragrafo {
+    content: "";
+    background-color: #fff;
+    
+}
