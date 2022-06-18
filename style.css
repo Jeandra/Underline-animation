@@ -1,10 +1,24 @@
-paragrafo {
+.paragrafo {
     cursor: pointer;
     position: relative;
 }
 
-paragrafo {
+.paragrafo:after {
     content: "";
-    background-color: #fff;
-    
+    background-color: rgb(211, 201, 201);
+    height: 2px;
+    width: 10%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s all ease;
+    z-index: -1; 
+}
+
+.paragrafo:hover {
+    color: #1a047a;
+}
+
+.paragrafo:hover::after {
+    height: 100%;
 }
